@@ -1,0 +1,155 @@
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+p {
+  margin-top: 0; }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/*navigation*/
+
+nav {
+    background: #FE7E00;
+    margin: 0;
+    border-bottom: 7px solid #F0720E;
+    display: block;
+    height: 8vh;
+}
+
+nav ul {
+    float: right;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+nav li {
+	display: inline-block;
+	margin: 25px 25px 5px 25px;
+	padding: 1px;
+	border: 0px;
+	float:right;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+}
+
+nav img {
+    height: 60px;
+    width: 100px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 6px;
+}
+
+nav span {
+	color: white;
+	font-size: 32px;
+}
+
+.brand-text {
+    float: left;
+    color: white;
+    font-size: 40px;
+    margin: 15px 15px;
+}
+
+/** Section **/
+
+.row {
+	width: 100%;
+}
+
+.image-div {
+	width: 35%;
+	float: left;
+}
+
+.text-div {
+	width: 60%;
+	padding-left: 5%;
+	float: left;
+}
+
+.first-button {
+    width: 20%;
+    height: 50px;
+    margin: 2% 8% 0% 10%;
+    background-color: #FE7E00;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.second-button {
+    width: 20%;
+    height: 50px;
+		background-color: #7BCBC8;
+		border: none;
+		color: white;
+		font-size: 20px;
+		margin-left: -4%;
+}
+
+.mainorange {
+	height: auto;
+	width: 90%;
+	margin-top: 10%;
+	display: block;
+	float: right;
+
+
+}
+
+h1 {
+	color: orange;
+	font-size: 50px;
+	text-align: left;
+	margin-bottom: 1%;
+	margin-top: 10%;
+	float: left;
+	padding-left: 10%;
+
+}
+
+.orange {
+	color: #F37100;
+}
+.blue {
+	display: inline-block;
+}
+
+.search-form {
+    float: right;
+    margin: 1% 5%;
+}
+
+.search-field {
+    padding: 8% 10%;
+    background-color: #e9e9e9;
+    border: none;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.footer {
+	background-color: #7BCBC8;
+	height: 23vh;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%
+}
